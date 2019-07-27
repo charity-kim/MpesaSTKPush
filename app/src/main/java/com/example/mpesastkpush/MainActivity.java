@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
         //settings;
         SandBox.setAccess_token_url("https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials");
         SandBox.setBusinessShortCode("174379");
-        SandBox.setConsumerKey("hIxOVauUcaEKboAg6kn9misGEq8KSHbS");//enter consumer key
-        SandBox.setConsumerSecret("pVI6h0pdMwYytcti");//enter consumer secret
-        SandBox.setPassKey("bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919");//enter passkey
+        SandBox.setConsumerKey("");//enter consumer key
+        SandBox.setConsumerSecret("");//enter consumer secret
+        SandBox.setPassKey("");//enter passkey
         SandBox.setStk_push_url("https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest");
         SandBox.setC2bSimulation_url("https://sandbox.safaricom.co.ke/mpesa/c2b/v1/simulate");
 //254708374149
